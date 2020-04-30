@@ -4,7 +4,7 @@ import windowManager from './windowManager'
 const menuTemplates: MenuItemConstructorOptions[] = [{
   label: 'File',
   submenu: [{
-    label: 'New Connection WindowX',
+    label: 'New Connection Window',
     accelerator: 'CmdOrCtrl+N',
     click() {
       windowManager.create()
